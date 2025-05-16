@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous"> -->
+
+  <title>Kim Cương Lầu</title>
+</head>
+
+<body>
+  <!---------------------------HEADER-TOP------------------------>
+  <div class="header-top">
+    <ul>
+      <li>
+        <a href=""><img style="width: 80px" src="image/logo.png" alt="" /></a>
+      </li>
+      <li><a href="">Tin tức</a></li>
+      <li>
+        <a href="">Khuyến mãi<sup>HOT</sup></a>
+      </li>
+      <li><a href="">Giới thiệu</a></li>
+      <li><a href="">Tuyển dụng</a></li>
+      <li><a href="">Liên hệ</a></li>
+      <li>
+        <input type="text" placeholder="Bạn tìm gì..." /><i class="fa-solid fa-magnifying-glass"></i>
+      </li>
+      <li>
+        <a href=""><button>
+            <i class="fa-regular fa-circle-user"></i>Đăng nhập
+          </button></a>
+      </li>
+      <li>
+        <a href=""><button>Giỏ hàng<i class="fa-solid fa-bag-shopping"></i></button></a>
+      </li>
+      <li>
+        <a href=""><button>
+            Thanh toán<i class="fa-regular fa-credit-card"></i></button></a>
+      </li>
+    </ul>
+  </div>
+  <!-- ---------------------HEADER-BOTTOM------------------ -->
+  <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+    <i class=" fa-solid fa-bars"></i>
+  </div>
+  <div class="header-bottom">
+    <ul>
+      <li>
+        <a href=""><i class="fa-solid fa-bars" style="margin-right: 10px"></i>Loại trang sức</a>
+        <!-- -------------------------SUBMENU-------------------------- -->
+        <div class="menu">
+          <ul>
+            <li><a href="" style="color: #C48C46;">Nhẫn</a></li>
+            <li><a href="" style="color: #C48C46;">Bông tai</a></li>
+            <li><a href="" style="color: #C48C46;">Lắc - Vòng</a></li>
+            <li><a href="" style="color: #C48C46;">Dây chuyền</a></li>
+            <li><a href="" style="color: #C48C46;">Bộ trang sức</a></li>
+            <li><a href="" style="color: #C48C46;">Mặt dây chuyền</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="">Trang chủ</a></li>
+      <li><a href="">Trang sức vàng</a></li>
+      <li><a href="">Trang sức bạc</a></li>
+      <li><a href="">Đá, Đá quý</a></li>
+      <li><a href="">Bộ trang sức mới nhất</a></li>
+      <li><a href="">Lab thực hành</a></li>
+      <li><a href="">Thông tin liên hệ</a></li>
+    </ul>
+
+  </div>
+  <div class="middel" style="overflow-x: hidden;">
+    <!-- -------------------------SLIDEER--------------------------- -->
+    <div class="slider container-fluid">
+      <div class=" slider-content">
+        <div class="slider-img-wrapper">
+          <div class="slider-top">
+            <div class="slider-track">
+              <a href=""><img src="image/slide1.png" alt="" /></a>
+              <a href=""><img src="image/slide2.png" alt="" /></a>
+              <a href=""><img src="image/slide3.png" alt="" /></a>
+              <a href=""><img src="image/slide4.png" alt="" /></a>
+            </div>
+            <div class="slider-top-btn">
+              <i class="fa-solid fa-circle-chevron-left"></i>
+              <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="slider-bottom">
+          <li class="active">Tỏa sáng đẳng cấp</li>
+          <li>Vẻ đẹp vượt thời gian</li>
+          <li>Mỗi bản vẽ là một kiệt tác</li>
+          <li>Bừng sáng vẻ đẹp hoàng kim</li>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------BANER1-------------------- -->
+    <div class="baner-1">
+      <a href=""><img src="image/baner1.jpg" alt=""></a>
+    </div>
+    <!-- -----------------------PRODUCT1---------------------- -->
+    <div class="product">
+      <div class="product-card">
+        <p class="tag">KỲ QUAN ĐÁ QUÝ</p>
+        <h2>Trang sức đá<br>quý rừng xanh</h2>
+        <a href="#" class="buy-link">MUA NGAY</a>
+        <img src="image/product1.png" alt="" style="border-radius: 20px;">
+      </div>
+      <div class="product-card">
+        <p class="tag">BỘ SƯU TẬP 2024</p>
+        <h2>BỘ SƯU TẬP<br>SALE 20%</h2>
+        <a href="#" class="buy-link">MUA NGAY</a>
+        <img src="image/product2.png" alt="" style="height: 200px;width: 200px;">
+      </div>
+      <div class="product-card">
+        <p class="tag">20% OFF</p>
+        <h2>Nhẫn hoàn hảo<br>của vẻ đẹp</h2>
+        <a href="#" class="buy-link">MUA NGAY</a>
+        <img src="image/product3.png" alt="" style="height: 200px;width: 200px;">
+      </div>
+    </div>
+    <!-- -------------------------PRODUCT2------------------------------- -->
+    <h2
+      style="text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #003468;">
+      Bạn đang tìm gì hôm nay?</h2>
+    <div class="grid-container">
+      <div class="item">
+        <img src="image/product2_1.jpg" alt="Nhẫn Kim cương">
+        <p>Nhẫn Kim cương</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_2.jpg" alt="Nhẫn Cưới">
+        <p>Nhẫn Cưới</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_3.jpg" alt="Nhẫn Cầu hôn">
+        <p>Nhẫn Cầu hôn</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_4.jpg" alt="Bông tai ECZ">
+        <p>Bông tai ECZ</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_5.jpg" alt="Dây chuyền Vàng">
+        <p>Dây chuyền Vàng</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_6.jpg" alt="Đồng hồ Kim cương">
+        <p>Đồng hồ Kim cương</p>
+      </div>
+
+      <div class="item">
+        <img src="image/product2_7.jpg" alt="Trang sức mới">
+        <p>Trang sức mới</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_8.jpg" alt="Trang sức Cưới">
+        <p>Trang sức Cưới</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_9.jpg" alt="Trang sức Nam">
+        <p>Trang sức Nam</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_10.jpg" alt="Trang sức May mắn">
+        <p>Trang sức May mắn</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_11.jpg" alt="Trang sức Vàng">
+        <p>Trang sức Vàng</p>
+      </div>
+      <div class="item">
+        <img src="image/product2_12.jpg" alt="Trang sức Bạc">
+        <p>Trang sức Bạc</p>
+      </div>
+    </div>
+    <!-- ---------------------PRODUCT3------------------------ -->
+    <div class="container-proc3">
+      <h2 class="title">Trang sức nổi bật</h2>
+      <div class="icon2" style="display: flex;align-items: center; justify-content: center; width: 100%;">
+        <img src="image/icon2.jpg" alt="" style="width: 400px; height: 50px;">
+      </div>
+      <div class="product-grid">
+        <!-- 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_1.jpg" alt="">
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price">3,000,000₫</p>
+            <p class="brand">Elsa Peretti®</p>
+            <p class="name">Nesting Wide Band Ring</p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_2.jpg" alt="Mine Pierced Earrings" />
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price">3,600,000₫</p>
+            <p class="brand">Atlas®</p>
+            <p class="name">Mine Pierced Earrings</p>
+          </div>
+        </div>
+
+
+        <!-- 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_3.jpg" alt="Mine Pierced Earrings" />
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price">4,000,000₫</p>
+            <p class="brand">Paloma Picasso®</p>
+            <p class="name">Divas Dream White Gold Necklace</p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_4.jpg" alt="Mine Pierced Earrings" />
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price">2,600,000₫</p>
+            <p class="brand">Elsa Peretti®</p>
+            <p class="name">Crystal Daisy Brass Cuff</p>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_5.jpg" alt="Mine Pierced Earrings" />
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price">2,200,000₫</p>
+            <p class="brand">Atlas®</p>
+            <p class="name">Serpent Viper 18k Rose Gold</p>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_6.jpg" alt="Mine Pierced Earrings" />
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price">2,600,000₫</p>
+            <p class="brand">Paloma Picasso®</p>
+            <p class="name">Touch of Gold</p>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_7.jpg" alt="Mine Pierced Earrings" />
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price"><del>3,400,000₫</del> 3,200,000₫</p>
+            <p class="brand">Atlas®</p>
+            <p class="name">The Galleria of Gems</p>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/product3_8.jpg" alt="Mine Pierced Earrings" />
+            <div class="product-icons">
+              <button title="Giỏ hàng"><i class="bi bi-cart4" style="font-size: 25px; color: #C48C46;"></i></button>
+              <button title="Xem nhanh"><i class="bi bi-eye" style="font-size: 25px; color: #C48C46;"></i></button>
+            </div>
+            <div class="badge">PHỔ BIẾN</div>
+          </div>
+          <div class="product-info">
+            <p class="price">3,500,000₫</p>
+            <p class="brand">Elsa Peretti®</p>
+            <p class="name">Stone Appeal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------FOOTER-TOP-------------------- -->
+    <div class="footer-top">
+      <!-- --------------------------------FEATURES-------------------------- -->
+      <div class="features">
+        <div class="feature-item">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h3>Giao hàng uy tín</h3>
+          <p>1-2 ngày sau khi đặt hàng</p>
+        </div>
+        <div class="feature-item" style="font-size: 20px;">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          <h3>Hoàn trả trong vòng 14 ngày</h3>
+          <p>Đối với tất cả đơn hàng</p>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-headset"></i>
+          <h3>Hỗ trợ 24/7</h3>
+          <p>Qua số điện thoại hoặc email</p>
+        </div>
+      </div>
+      <!-- -----------------------SUBSCRIBE------------------------ -->
+      <div class="subscribe">
+        <h2>Đăng ký ngay để nhận các tin mới nhất từ trang web !</h2>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Nhập email..." required>
+          <button type="submit">
+            ĐĂNG KÝ
+            <svg width="16" height="16" fill="white" viewBox="0 0 24 24">
+              <path d="M2.01 21l20.99-9L2.01 3 2 10l15 2-15 2z" />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- ------------------FOOTER_BOTTOM------------------- -->
+    <footer class="footer">
+      <div class="footer-content">
+        <span>© Thiết kế và lập trình bởi</span>
+        <span class="brand">
+          <span class="logo">🐼</span>
+          <span class="name">TRẦN CHÁNH BIỆN<span class="highlight">.Media / Website</span> 🔗</span>
+        </span>
+        <span class="divider">|</span>
+        <a href="tel:+84313728397" class="phone">(+84) 0814-993-797</a>
+        <span class="divider">|</span>
+        <a href="mailto:info@themona.global" class="email">tranchanhbien@gmail.com</a>
+      </div>
+    </footer>
+  </div>
+  <!-- <div style="height: 2000px; background: linear-gradient(white, gray);"></div> -->
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Lên đầu trang">↑</button>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.24/bundled/lenis.min.js"></script>
+</body>
+<!-- --------------------LÀM CUỘN MƯỢT-------------------- -->
+<script>
+  const lenis = new Lenis({
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    smooth: true,
+  })
+
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+
+  requestAnimationFrame(raf)
+</script>
+
+</html>
